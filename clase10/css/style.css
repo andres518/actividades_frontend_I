@@ -1,0 +1,118 @@
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  width: 1024px;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.descuento {
+  background-color: #1cd1b0;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 38px;
+}
+
+.titulo {
+  background-color: #00669f;
+  box-sizing: border-box;
+  height: 101px;
+  padding: 28px;
+  position: sticky;
+  top:0;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  
+}
+
+.contenedor {
+  margin: 151px 32px 150px 32px;
+  box-sizing: border-box;
+  height: 532px;
+  width: 960px;
+ 
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  width: 300px;
+  height: 529px;
+  display: inline-block;
+  background-color: #f3f3f3;
+  border-radius: 16px 16px 0px 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.center {
+  margin-left: 21px;
+  margin-right: 21px;
+}
+
+footer {
+  position: relative;
+  box-sizing: border-box;
+  height: 51px;
+  width: 100%;
+  padding: 16px;
+  background-color: #00669f;
+  color: #ffff;
+}
+
+.btn {
+  position: relative;
+  left: 85px;
+  bottom: 18.48px;
+  top: 110px;
+  box-sizing: border-box;
+  height: 48.52px;
+  width: 128.78px;
+  padding: 15px 35.78px 15.52px 37px;
+  background-color: #00669f;
+  text-decoration: none;
+}
+
+.heart {
+  position: relative;
+  top: 15px;
+  left: 21px;
+  z-index: 10;
+}
+
+.bkgd {
+  position: relative;
+  top: -38px;
+}
+
+.profile {
+  position: absolute;
+  left: 90px;
+  bottom: 282px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+h3 {
+  position: relative;
+  text-align: center;
+  top: 20px;
+}
+
+p {
+  position: relative;
+  box-sizing: border-box;
+  height: 113px;
+  width: 267px;
+  top: 45px;
+  padding-left: 17px;
+  padding-bottom: 104px;
+  z-index: 10;
+}
+
+a{
+  color: #ffff;
+}
